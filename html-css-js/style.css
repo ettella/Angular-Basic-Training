@@ -1,0 +1,249 @@
+/* 
+html and body basic settings */
+
+html, * { 
+    box-sizing: border-box;}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+.menu {
+    min-height: 70px;
+    background-color: aliceblue;
+    position: relative;
+    padding: 1px;
+}
+/* positon relativehez kell a padding, hogy konténeren belülmkezelje */
+
+.navigation-links {
+    display: block;
+    width: 70%;
+    margin: 1% auto; 
+    
+}
+
+.navigation-links a {
+    text-decoration: none;
+    color: teal;
+    font-weight: 600;
+    display: inline-block;
+    padding: 5px;
+    margin: 0 1%;
+}
+
+.navigation-links a:hover {
+    background-color: teal;
+    color: whitesmoke;
+
+}
+
+.social-icons {
+    position: absolute;
+    right: 2%;
+    top:10%;
+    width: 30%;
+    height: 40px;
+    text-align: center;
+}
+
+.social-icons div {
+    height: 40px;
+    width: 40px;
+    padding: 2%;
+    display: inline-block;
+    margin: 0 1%;
+    border-radius: 50%;
+}
+
+.social-icons img {
+    width:85%;
+
+}
+.facebook {
+    border: 1px solid cornflowerblue;
+}
+
+.instagram {
+    border: 1px solid purple
+}
+
+.mail {
+    border: 1px solid red
+}
+
+
+/* Features section */
+
+.features-section>* {
+    min-height: 150px;
+    width: 30%;
+    margin: 1% auto;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+
+.search-container, .ad-container, .registration-container {
+    display: inline-block;
+
+}
+
+.features-section .feature-text {
+    text-align: center;
+    padding: 0.3rem;
+}
+
+.features-section .features-icon {
+    background-color: whitesmoke;
+    width: 3rem;
+    height: 3rem;
+    margin: 2% auto;
+    border-radius: 50%;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.features-icon img {
+    width: 75%;
+}
+
+.search-container {
+    background-color: teal;
+    margin-left:3rem;
+}
+
+.registration-container {
+    background-color: mediumseagreen;
+}
+
+.ad-container {
+    background-color: seagreen;
+}
+
+/* form saját megoldásom 
+.registration h3 {
+    color: teal;
+    font-weight: 600;
+    margin: 2% auto;
+    text-align: center;
+}
+
+.registration-form {
+    width:80%;
+    height: 450px;
+    text-align: center;
+    background-color: aliceblue;
+    padding: 40px;
+    margin:1% auto
+}
+
+.field {
+    margin:20px auto;
+    width:30%;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+button {
+    background-color: teal;
+    border-radius: 5px;
+    padding: 5px;
+    color:whitesmoke;
+    text-align:center;
+    border:none;
+    margin: 20px;
+    width:80px;
+}
+
+.registration-form label {
+    color:teal;
+    margin:8px;
+} */
+
+
+
+/* form tanár megoldása */
+
+.form-container {
+    width:80%;
+    margin:5% auto;
+}
+
+h4 {
+    text-align: center;
+    font-size:1.7rem;
+    color:teal;
+}
+
+form {
+    width: 60%;
+    margin: 0 auto;
+    background-color: rgb(189, 216, 240);
+    text-align:center;
+    color:teal;
+    padding:2rem;
+    box-shadow: 4px 4px 8px 0 rgba(19, 17, 23, 0.711);
+}
+
+input, label, small {
+    display: block;
+    margin: 2% auto;
+    font-size:1.3rem;
+}
+
+input { 
+    margin-bottom:20px
+ }
+
+small {
+    color:red;
+    display:none;
+}
+
+input {
+    width:40%;
+    margin:0 auto;
+    height: 2rem;
+    border-radius: 8px;
+}
+
+button {
+    width:20%;
+    height:3rem;
+    border-radius: 0.7rem;
+    background-color: teal;
+    color:whitesmoke;
+    margin: 20px auto;
+    font-size: 1.3rem;
+    border:none
+
+}
+
+button:hover {
+    background-color: aqua;
+    cursor:pointer;
+    color:black;
+    border: none;
+}
+
+footer {
+    height:100px;
+    width: 100%;
+    background-color: teal;
+    margin-top: 2rem;
+    padding:1px;
+}
+
+footer h5 {
+    font-size: 1.4rem;
+    color:whitesmoke;
+    text-align: center;
+    margin-top: 2rem;
+}
